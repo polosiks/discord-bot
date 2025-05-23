@@ -19,7 +19,7 @@ async def on_ready():
 async def on_message(message):
     if message.author == client.user:
         return
-    for emoji in ['🇰', '🇾', '🇸']:
+    for emoji in ['🇰', '🇾', '🇸', 'o', 'n', 'g']:
         await message.add_reaction(emoji)
 
 client.run(TOKEN)
